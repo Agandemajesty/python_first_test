@@ -1,28 +1,3 @@
-# import time
-# from selenium.webdriver.support import expected_conditions as EC
-# from selenium import webdriver
-# from selenium.webdriver.common.by import By
-#
-# driver = webdriver.Chrome()
-# driver.get("https://www.saucedemo.com/")
-# driver.find_element(By.ID, "user-name").send_keys("visual_user")
-# driver.find_element(By.ID, "password").send_keys("secret_sauce")
-# driver.find_element(By.ID, "login-button").click()
-# driver.maximize_window()
-# time.sleep(5)
-#
-# driver.find_element(By.ID, "add-to-cart-sauce-labs-backpack").click()
-# driver.find_element(By.ID, "add-to-cart-sauce-labs-bike-light").click()
-# driver.find_element(By.ID, "add-to-cart-sauce-labs-bolt-t-shirt").click()
-# driver.find_element(By.ID, "add-to-cart-test.allthethings()-t-shirt-(red)").click()
-# driver.find_element(By.ID, "add-to-cart-sauce-labs-onesie").click()
-# driver.find_element(By.CLASS_NAME, "shopping_cart_link").click()
-# logout_button = driver.find_element(By.ID, "logout_sidebar_link")
-# driver.execute_script("arguments[0].click();", logout_button)
-# driver.find_element(By.ID, "logout_sidebar_link").click()
-# time.sleep(5)
-
-
 import time
 from selenium import webdriver
 from selenium.webdriver.common.by import By
